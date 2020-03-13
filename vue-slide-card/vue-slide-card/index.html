@@ -1,0 +1,18 @@
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=icon href=favicon.ico><title>vue-slide-card</title><link href=css/app.5add1067.css rel=preload as=style><link href=js/app.631050aa.js rel=preload as=script><link href=js/chunk-vendors.79cf473b.js rel=preload as=script><link href=css/app.5add1067.css rel=stylesheet></head><body><script>!(function (doc, win) {
+      var cw = 750;
+      function fontSizeInit() {
+        var html = doc.documentElement,
+          hWidth = html.getBoundingClientRect().width;
+        hWidth > 640 && (hWidth = 640);
+        hWidth < 300 && (hWidth = 300);
+        html.style.fontSize = 100 * (hWidth / cw) + "px";
+      }
+      fontSizeInit();
+      var reTimeoutId;
+      win.onresize = function () {
+        reTimeoutId && clearTimeout(reTimeoutId);
+        reTimeoutId = setTimeout(function () {
+          fontSizeInit();
+        }, 100);
+      };
+    })(document, window);</script><noscript><strong>We're sorry but vue-slide-card doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=js/chunk-vendors.79cf473b.js></script><script src=js/app.631050aa.js></script></body></html>

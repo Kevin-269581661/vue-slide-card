@@ -4,7 +4,7 @@ Vue 层叠卡片滑动切换、卡牌动态滑动切换效果
 * <figure class="third">
     <img src="./demo-imgs/1.jpg" width="280"/> <img src="./demo-imgs/2.jpg" width="280"/> <img src="./demo-imgs/3.jpg" width="280"/>
   </figure>
-* [线上 demo 演示](http://www.yunfengzhijia.cn/)  
+* [线上 demo 演示](http://www.yunfengzhijia.cn/git-demo/vue-slide-card/)  
 ## 实现步骤
 ### 给最外层容器固定高度（视口高度），绑定三个滑动事件
 hmtl：
